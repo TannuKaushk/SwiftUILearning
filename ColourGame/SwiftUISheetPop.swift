@@ -30,7 +30,7 @@ struct SwiftUISheetPop: View {
 //            })
             if sheetView {
                 SwiftUIState(sheetView: $sheetView)
-                    .padding(.top)
+                    //.padding(.top)
                 .transition(.move(edge: .bottom))
                 .animation(.spring)
                 .zIndex(1.0)

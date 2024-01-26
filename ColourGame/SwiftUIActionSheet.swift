@@ -18,9 +18,13 @@ struct SwiftUIActionSheet: View {
     var body: some View {
         NavigationView{
             VStack {
+                Rectangle()
+                    .frame(height: 20)
+                    .foregroundColor(.clear)
                 HStack {
                    Circle()
                         .frame(width: 50, height: 50)
+                        .foregroundColor(.yellow)
                     Text("@Username")
                     Spacer()
                     Button(action: {
@@ -31,9 +35,11 @@ struct SwiftUIActionSheet: View {
                     })
                 }.accentColor(.primary)
                 .padding(.horizontal)
-                Rectangle()
-                    .aspectRatio(1.0, contentMode: .fit)
-                
+               Image("offer1")
+                    .resizable()
+                    .frame(width: UIScreen.main.bounds.width, height: 300)
+                    .clipped()
+                Spacer()
             }
           
             

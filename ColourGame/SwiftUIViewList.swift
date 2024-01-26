@@ -7,12 +7,24 @@
 
 import SwiftUI
 
+enum ErrorMessage: String {
+    case Success
+    case Error
+    var discription: String  {
+        switch self {
+        case .Success:
+            return "Congratulation! Fruits are added"
+        case .Error:
+            return "Sorry Please try again"
+        }
+    }
+}
+
 struct SwiftUIViewList: View {
     @State var fruits: [String] = ["Apple", "Orange", "Banana", "Lichi", "Gwawa","Grapes"]
     @State var section: [String] = ["Fruits", "Vegitables"]
     @State var showToggle: Bool = false
     @State var errorTitle: String = ""
-    @State var errorMessage: String = ""
     @State var alertType: AlertType? = nil
     @Environment(\.presentationMode) var presentationMode
     enum AlertType {
@@ -72,17 +84,13 @@ struct SwiftUIViewList: View {
     func showAlert() -> Alert {
         switch alertType {
         case .success:
-           return Alert(title: Text(errorTitle), message: Text(errorMessage), primaryButton: .destructive(Text("Delete"),action: {
-                
+           return Alert(title: Text(errorTitle), message: Text(    ErrorMessage.Success.discription), primaryButton: .destructive(Text("Delete"),action: {
             }), secondaryButton: .cancel())
-            break
         case .error:
-           return Alert(title: Text(errorTitle), message: Text(errorMessage), primaryButton: .destructive(Text("Delete"),action: {
-                
+            return Alert(title: Text(errorTitle), message: Text(    ErrorMessage.Error.discription), primaryButton: .destructive(Text("Delete"),action: {
             }), secondaryButton: .cancel())
-            break
         default:
-        return Alert(title: Text(errorTitle), message: Text(errorMessage), primaryButton: .destructive(Text("Delete"),action: {
+        return Alert(title: Text(errorTitle), message: Text(ErrorMessage.Error.discription), primaryButton: .destructive(Text("Delete"),action: {
                  
              }), secondaryButton: .cancel())
         }

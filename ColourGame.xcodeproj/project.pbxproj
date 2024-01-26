@@ -41,6 +41,9 @@
 		B19C8E6C2B2890E8006D56D5 /* SwiftUIBasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19C8E6B2B2890E8006D56D5 /* SwiftUIBasicAnimation.swift */; };
 		B19C8E6E2B29C43F006D56D5 /* SwiftUISheetPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19C8E6D2B29C43F006D56D5 /* SwiftUISheetPop.swift */; };
 		B1A0B3362B2720530064A9BD /* SwiftUIStateButtonChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A0B3352B2720530064A9BD /* SwiftUIStateButtonChange.swift */; };
+		B1D2501F2B6407EA00CA256B /* SwiftUIAnimationLamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D2501E2B6407EA00CA256B /* SwiftUIAnimationLamp.swift */; };
+		B1D250212B64080200CA256B /* SwiftUIFrequencyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D250202B64080200CA256B /* SwiftUIFrequencyAnimation.swift */; };
+		B1D250232B64081600CA256B /* CrossButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D250222B64081600CA256B /* CrossButtonAnimation.swift */; };
 		B1D8B63F2B34A3BF00DCC80B /* SwiftUIActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D8B63E2B34A3BF00DCC80B /* SwiftUIActionSheet.swift */; };
 		B1ED83402B5539B400E1B1B0 /* SwiftUIDependencyInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1ED833F2B5539B400E1B1B0 /* SwiftUIDependencyInjection.swift */; };
 /* End PBXBuildFile section */
@@ -108,6 +111,9 @@
 		B19C8E6B2B2890E8006D56D5 /* SwiftUIBasicAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicAnimation.swift; sourceTree = "<group>"; };
 		B19C8E6D2B29C43F006D56D5 /* SwiftUISheetPop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISheetPop.swift; sourceTree = "<group>"; };
 		B1A0B3352B2720530064A9BD /* SwiftUIStateButtonChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStateButtonChange.swift; sourceTree = "<group>"; };
+		B1D2501E2B6407EA00CA256B /* SwiftUIAnimationLamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationLamp.swift; sourceTree = "<group>"; };
+		B1D250202B64080200CA256B /* SwiftUIFrequencyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFrequencyAnimation.swift; sourceTree = "<group>"; };
+		B1D250222B64081600CA256B /* CrossButtonAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossButtonAnimation.swift; sourceTree = "<group>"; };
 		B1D8B63E2B34A3BF00DCC80B /* SwiftUIActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIActionSheet.swift; sourceTree = "<group>"; };
 		B1ED833F2B5539B400E1B1B0 /* SwiftUIDependencyInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDependencyInjection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -168,6 +174,7 @@
 		A49F1FB32AD6B4A5002DF704 /* ColourGame */ = {
 			isa = PBXGroup;
 			children = (
+				B1D2501D2B6407B100CA256B /* Animation */,
 				B18CDBC02B56C965001657EC /* UnitTesting */,
 				A49F1FB42AD6B4A5002DF704 /* ColourGameApp.swift */,
 				A49F1FB62AD6B4A5002DF704 /* SwiftUIShapesAndColor.swift */,
@@ -244,6 +251,16 @@
 				B18A69602B5AAE290028183C /* DataServiceManager_Tests.swift */,
 			);
 			path = ColourGame_Tests;
+			sourceTree = "<group>";
+		};
+		B1D2501D2B6407B100CA256B /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				B1D2501E2B6407EA00CA256B /* SwiftUIAnimationLamp.swift */,
+				B1D250202B64080200CA256B /* SwiftUIFrequencyAnimation.swift */,
+				B1D250222B64081600CA256B /* CrossButtonAnimation.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -417,10 +434,12 @@
 				B18CDBC42B56C9B6001657EC /* UnitTestViewModel.swift in Sources */,
 				B18221C12B3AF20000166DF4 /* SwiftUIColorPicker.swift in Sources */,
 				B1A0B3362B2720530064A9BD /* SwiftUIStateButtonChange.swift in Sources */,
+				B1D250212B64080200CA256B /* SwiftUIFrequencyAnimation.swift in Sources */,
 				B18221C52B3B036000166DF4 /* SwiftUIStepper.swift in Sources */,
 				B19B2E242B2C6894008B2988 /* SwiftUINavigationBar.swift in Sources */,
 				B19C8E6E2B29C43F006D56D5 /* SwiftUISheetPop.swift in Sources */,
 				B135DC4A2B359A9B00E99497 /* SwiftUIContextMenu.swift in Sources */,
+				B1D250232B64081600CA256B /* CrossButtonAnimation.swift in Sources */,
 				A4E0DFD12AE45340003DC72D /* SwiftUIGrid.swift in Sources */,
 				A42728D92ADD2F6B00443F10 /* SwiftUITextView.swift in Sources */,
 				B18A695D2B5A97150028183C /* DataServiceManager.swift in Sources */,
@@ -432,6 +451,7 @@
 				B135DC4C2B35A1C100E99497 /* SwiftUITextFiled.swift in Sources */,
 				A49F1FB52AD6B4A5002DF704 /* ColourGameApp.swift in Sources */,
 				B19C8E6C2B2890E8006D56D5 /* SwiftUIBasicAnimation.swift in Sources */,
+				B1D2501F2B6407EA00CA256B /* SwiftUIAnimationLamp.swift in Sources */,
 				B18221C32B3AFA7900166DF4 /* SwiftUIDatePicker.swift in Sources */,
 				B171BB432B456DD700A247AF /* SwiftUITabView.swift in Sources */,
 			);
