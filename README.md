@@ -16,4 +16,4 @@ https://github.com/TannuKaushk/SwiftUILearning/assets/68506215/ee942d09-07f3-4f1
 https://github.com/TannuKaushk/SwiftUILearning/assets/68506215/42a0bc68-628f-45a2-9c88-ce35594a61a5
 https://github.com/TannuKaushk/SwiftUILearning/assets/68506215/5af94554-0ac0-43d5-94a9-ad224d209b99
 https://github.com/TannuKaushk/SwiftUILearning/assets/68506215/d0ae8012-e7c3-4371-b403-ed7ea4dbec17
-![FrequencyAnimation](https://github.com/TannuKaushk/SwiftUILearning/assets/68506215/dd0aca29-c81b-44de-b717-9256f05fd48e)
+https://github.com/TannuKaushk/SwiftUILearning/assets/68506215/dd0aca29-c81b-44de-b717-9256f05fd48e
