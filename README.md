@@ -5,7 +5,7 @@ Cover Unit Testing and Dependency Injection Features as well in this project.
 ## Preview ##
 <img width="281" alt="Shapes" src="https://github.com/TannuKaushk/SwiftUILearning/assets/68506215/543048c0-11bf-47c9-a491-197ba4a3a9e4">
 <img width="264" alt="TextView Img" src="https://github.com/TannuKaushk/SwiftUILearning/assets/68506215/8e7f3fd0-f5c0-4449-88d6-e115808fdce7">
-![FrequencyAnimation](https://github.com/TannuKaushk/SwiftUILearning/assets/68506215/1957e9a8-2af4-40f9-ae6a-1a455b029051)
+<img src="https://github.com/TannuKaushk/SwiftUILearning/assets/68506215/1957e9a8-2af4-40f9-ae6a-1a455b029051.gif" width="300">
 https://github.com/TannuKaushk/SwiftUILearning/assets/68506215/d42d8bfb-5977-4123-b6aa-1281ca5de736
 https://github.com/TannuKaushk/SwiftUILearning/assets/68506215/e49cba46-cf3b-4115-9b5d-40b0759566b6
 https://github.com/TannuKaushk/SwiftUILearning/assets/68506215/40441d33-195c-450c-8b8e-a35ce6530011
