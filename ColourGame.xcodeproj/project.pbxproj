@@ -41,6 +41,7 @@
 		B19C8E6C2B2890E8006D56D5 /* SwiftUIBasicAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19C8E6B2B2890E8006D56D5 /* SwiftUIBasicAnimation.swift */; };
 		B19C8E6E2B29C43F006D56D5 /* SwiftUISheetPop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19C8E6D2B29C43F006D56D5 /* SwiftUISheetPop.swift */; };
 		B1A0B3362B2720530064A9BD /* SwiftUIStateButtonChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A0B3352B2720530064A9BD /* SwiftUIStateButtonChange.swift */; };
+		B1A84FD92B889D3E006E7BC6 /* SwiftUIDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1A84FD82B889D3E006E7BC6 /* SwiftUIDrawing.swift */; };
 		B1D2501F2B6407EA00CA256B /* SwiftUIAnimationLamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D2501E2B6407EA00CA256B /* SwiftUIAnimationLamp.swift */; };
 		B1D250212B64080200CA256B /* SwiftUIFrequencyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D250202B64080200CA256B /* SwiftUIFrequencyAnimation.swift */; };
 		B1D250232B64081600CA256B /* CrossButtonAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D250222B64081600CA256B /* CrossButtonAnimation.swift */; };
@@ -111,6 +112,7 @@
 		B19C8E6B2B2890E8006D56D5 /* SwiftUIBasicAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicAnimation.swift; sourceTree = "<group>"; };
 		B19C8E6D2B29C43F006D56D5 /* SwiftUISheetPop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISheetPop.swift; sourceTree = "<group>"; };
 		B1A0B3352B2720530064A9BD /* SwiftUIStateButtonChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStateButtonChange.swift; sourceTree = "<group>"; };
+		B1A84FD82B889D3E006E7BC6 /* SwiftUIDrawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDrawing.swift; sourceTree = "<group>"; };
 		B1D2501E2B6407EA00CA256B /* SwiftUIAnimationLamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationLamp.swift; sourceTree = "<group>"; };
 		B1D250202B64080200CA256B /* SwiftUIFrequencyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFrequencyAnimation.swift; sourceTree = "<group>"; };
 		B1D250222B64081600CA256B /* CrossButtonAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossButtonAnimation.swift; sourceTree = "<group>"; };
@@ -259,6 +261,7 @@
 				B1D2501E2B6407EA00CA256B /* SwiftUIAnimationLamp.swift */,
 				B1D250202B64080200CA256B /* SwiftUIFrequencyAnimation.swift */,
 				B1D250222B64081600CA256B /* CrossButtonAnimation.swift */,
+				B1A84FD82B889D3E006E7BC6 /* SwiftUIDrawing.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -429,6 +432,7 @@
 				B18221BF2B3AE0F800166DF4 /* SwiftUIPickerView.swift in Sources */,
 				B19B2E262B2CA1A8008B2988 /* SwiftUIViewList.swift in Sources */,
 				B1D8B63F2B34A3BF00DCC80B /* SwiftUIActionSheet.swift in Sources */,
+				B1A84FD92B889D3E006E7BC6 /* SwiftUIDrawing.swift in Sources */,
 				B19C8E6A2B286904006D56D5 /* SwiftUITernaryOperator.swift in Sources */,
 				A47E9C712AE6CA9D000A15CA /* SwiftUIState.swift in Sources */,
 				B18CDBC42B56C9B6001657EC /* UnitTestViewModel.swift in Sources */,
